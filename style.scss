@@ -4,7 +4,7 @@ $third-color: green;
 $size-body: 1rem;
 $size-footer: 24px;
 
-@mixin article-style($color, $border-color, $font-size) {
+@mixin article-style($color: green, $border-color: green, $font-size: 12px) {
   color: $color;
   border-color: $border-color;
   font-size: $font-size;
@@ -28,6 +28,7 @@ div {
     border: 1px solid $third-color;
     justify-content: space-evenly;
     padding: inherit;
+    text-align: center;
     
     &:nth-child(odd) {
       @include article-style($second-color, $third-color, $size-body)

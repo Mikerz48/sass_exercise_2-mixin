@@ -16,6 +16,7 @@ div .firstSection article {
   border: 1px solid green;
   justify-content: space-evenly;
   padding: inherit;
+  text-align: center;
 }
 div .firstSection article:nth-child(odd) {
   color: blue;
